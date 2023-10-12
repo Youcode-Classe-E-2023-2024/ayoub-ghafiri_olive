@@ -17,25 +17,26 @@ body
     width: 8%;
     
 }
+
+nav{
+    display: flex;
+    align-items: center;
+}
 ul{
-    
     display: flex;
     list-style: none;
-    
-    
+    padding-right: 2%;
 }
+
 ul li a{
-    margin:30px;
     color: beige;
     text-decoration: none;
     font-size: large;
-    
-    
+    white-space: nowrap;
 }
-nav{
-    display: flex;
-    justify-content: space-between;    
-    
+
+.header li, header a{
+    margin-left: 10vh;
 }
 
 h1{
@@ -212,6 +213,7 @@ button {
     background-color: #5B590C;
 }
 .title2page{
+    
     margin: 0%;
     text-align: center;
     color: #F4F4DF;
@@ -223,9 +225,15 @@ hr{
     width: 35%;
     border: 2px solid;
 }
+.title{
+    padding-top: 10%;
+}
 .pg2artcl1{
     display: flex;
-    justify-content: space-evenly
+    justify-content: center;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-bottom: 3%;
 }
 .pg2artcl1 p{
 color: #FFF;
