@@ -1,0 +1,366 @@
+
+body
+{
+    background-color:#252409 ;
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.olivier1{
+    background:url(image/home-pages-for-olives.jpeg)  ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.logo-olive{
+    width: 8%;
+    
+}
+ul{
+    
+    display: flex;
+    list-style: none;
+    
+    
+}
+ul li a{
+    margin:30px;
+    color: beige;
+    text-decoration: none;
+    font-size: large;
+    
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;    
+    
+}
+
+h1{
+    color: aliceblue;
+    margin-left: 18%;
+    margin-top:12% ;
+    text-transform: uppercase;
+}
+pre{
+    color: aliceblue;
+    margin-top:5% ;
+    font-size: xx-large;
+    margin-bottom: 14%;
+
+}
+
+
+.taille-olivier{
+    
+    opacity: 0.5;
+    background: url(image/taille-de-lolivier.jpg), lightgray 50% ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 105vh;
+    border-radius: 59px;
+    margin: 7% 5%;
+}
+
+.olv-taille-txt{
+
+display: flex;
+flex-direction: column;
+
+}
+.olv-taille-txt h4{
+    color: #171212;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.olv-taille-txt p{
+    color: #000000;
+    
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    text-align: left;
+}
+
+.production-txt p{
+    color: #fff;
+    
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    width: 65%;
+
+}
+
+.production-txt h4{
+    color: #fff;
+    
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 5%;
+}
+
+.production{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 8%;
+}
+.production-txt{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
+}
+
+.production img{
+    width: 45%;
+    height: 45%;
+    border-radius: 59px;
+    margin-right: 1%;
+}
+.arbre-img{
+    width: 70%;
+    height: 20%;
+    margin-left: 15%;
+}
+.arbr-txt{
+    color: #fff;
+   
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 70%;
+    margin-left: 15%;
+}
+
+/*  */
+.boxes {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.pans1, 
+.pans2, 
+.pans3 {
+    height: 200px;
+}
+
+
+button {
+    background-color: rgb(58, 225, 58);
+    border: none;
+    padding: 3px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.box1, 
+.box2, 
+.box3,
+.pans-txt  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boxes h5{
+    color: #fff;
+}
+.alire-txt{
+    color: #FFF;
+  
+    font-size: 25px;
+    text-align: center;
+}
+.articles-to-lire-sect{
+    display: flex;
+    justify-content: space-evenly;
+}
+.articles-to-lire-sect p {
+    text-align: center;
+    color: #FFF;
+  
+    font-size:25px ;
+}
+.articles-to-lire-sect a{
+    text-decoration: none;
+}
+.footer-dv{
+    
+    color: aliceblue;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+.second-pg{
+    background-color: #5B590C;
+}
+.title2page{
+    margin: 0%;
+    text-align: center;
+    color: #F4F4DF;
+    
+    
+    font-style: italic;
+}
+hr{
+    width: 35%;
+    border: 2px solid;
+}
+.pg2artcl1{
+    display: flex;
+    justify-content: space-evenly
+}
+.pg2artcl1 p{
+color: #FFF;
+
+font-size: 30px;
+font-style: italic;
+width:90% ;
+
+}
+.pg2artcl1 img{
+    width: 85%;
+    margin-left: 5%;
+}
+.recette-sctn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.recette-sctn h2{
+color: #FFF5F5;
+
+font-size: 28px;
+font-style: italic;
+}
+.recette-sctn img{
+    width: 600px;
+    
+}
+/* the css of the page 3(olivier maroc)*/
+.olv-maroc-body{
+    background-color:#5B590C ;
+}
+.page-3-ttl{
+    text-align: center;
+    color: #FFF;
+    
+    font-size: 24px;
+    
+
+}
+.maroc-flag{
+    opacity: 0.5;
+    width: 800px;
+    height:350px;
+    margin-left: 18%;
+    
+}
+.flag-txt{
+    color: #F4F4DF;
+    width: 60%;
+    margin-left:20% ;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+    
+}
+.second-artcl-section{
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+.txt-of-artcl2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    font-size: 24px;
+    font-style: normal;
+    width: 40%;
+    margin-top: 1%;
+}
+.second-artcl-section img{
+    width: 500px;
+    margin-top: 7%;
+}
+.third-artcl3-section{
+    display: flex;
+    justify-content: space-between;
+}
+.third-artcl3-section p{
+    color: aliceblue;
+    font-size: 24px;
+    font-style: normal;
+    width: 65%;
+    padding-left: 20%;
+    
+}
+.third-artcl3-section img{
+   width: 450px;
+   padding-left: 10%;
+}
+/*the page 4 (livres)*/
+.livre-body{
+    background-color: #5B590C;
+}
+.livres-page-title{
+    color: #F4F4DF;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.livres-pages-sous-ttl{
+    color: #F4F4DF;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.first-2-books-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.livre-1-btn,
+.livre-2-btn{
+    margin-left:37% ;
+}
+
+.first-2-books-section p{
+    text-align: center;
+    color: #F4F4DF;
+}
+.livre4-img{
+    width:350px ;
+    height: 500px;
+}
+.olv-maroc-body{
+    margin-top:5% ;
+}
+nav{
+    position: fixed;
+    top: 0%;
+   /* background:transparent;*/
+   background-color: #000000;
+   opacity: 0.3;
+}
+button:hover {background-color: rgb(255, 246, 243);}
+
